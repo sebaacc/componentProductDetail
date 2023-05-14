@@ -10,7 +10,7 @@ const ProductDetails = () => {
 
        <>
        <h3>{p.name}</h3>
-       <p>Tipo de Deporte:{p.kindofsport}</p>
+       <p>Tipo de Deporte:{p.kindOfSport}</p>
        <p>Ubicación: {p.location}</p>
        <p>Horarios del club: {p.schedule}</p>
        <p>Servicios: {p.services}</p>
