@@ -1,19 +1,27 @@
-import React from 'react'
 
-const ProductDetails = (props) => {
+import data from "../data.json"
+
+const ProductDetails = () => {
 
   return (
     
     <div>
-        <h2>{props.name}</h2>
-        <p>Ubicación: {props.location}</p>
-        <p>Horarios del club: {props.schedule}</p>
-        <p>Servicios: {props.services}</p>
-        <p>Teléfono: {props.contact}</p>
-        <p>Precio: ${props.price}</p>
-        <img src={props.image} alt={props.name}/>
-    </div>
-  )
+       {data.map((p)=>(
+
+       <>
+       <h3>{p.name}</h3>
+       <p>Tipo de Deporte:{p.kindofsport}</p>
+       <p>Ubicación: {p.location}</p>
+       <p>Horarios del club: {p.schedule}</p>
+       <p>Servicios: {p.services}</p>
+       <p>Teléfono: {p.contact}</p>
+       <p>Precio: ${p.price}</p>
+       <img src={p.image} alt={p.name}/>
+       </>  
+       
+       ))}
+     </div>)
+   
 }
 
 export default ProductDetails
