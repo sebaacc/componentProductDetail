@@ -1,7 +1,7 @@
 
     [{
         "name":"Ankor Futbol.",
-        "kind of sport":"Futbol 7",
+        "kindOfSport":"Futbol 7",
         "location":"San martin 444, Buenos Aires, Capital.",
         "schedule":"De lunes a domingo 12:00hs a 23:00hs.",
         "services":"Baños, Asador, Wifi.",
@@ -12,7 +12,7 @@
 
        {
         "name":"Tenis Migueletes",
-        "kind of sport":"Tenis",
+        "kindOfSport":"Tenis",
         "location":"Migueletes 654, Buenos Aires,Capital.",
         "schedule":"De lunes a domingo de 09:00hs a 20:30hs.",
         "services":"Vestuario dama y caballero, Confiteria, Wifi.",
@@ -23,7 +23,7 @@
 
        {
         "name":"Pick and Roll Basket.",
-        "kind of sport":"Basket",
+        "kindOfSport":"Basket",
         "location":"Av.Libertador 1500, Buenos Aires, Capital.",
         "schedule":"De martes a domingo de 11:00hs a 23:30hs.",
         "services":"Vestuario dama y caballero.",
@@ -34,7 +34,7 @@
       
        {
         "name":"Pilar Padel.",
-        "kind of sport":"Padel",
+        "kindOfSport":"Padel",
         "location":"3 de Febrero 1500, Buenos Aires, Provincia.",
         "schedule":"De martes a domingo de 09:00hs a 23:30hs.",
         "services":"Vestuario dama y caballero, Confiteria",
